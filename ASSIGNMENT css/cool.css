@@ -1,0 +1,34 @@
+body {
+    font-family: arial;
+    font-size:14px;
+    color:navy blue;
+    background-color:#F2DAD7;
+}
+h1,h2,h3{
+    font-family:arial Black;
+    letter-spacing:3px;
+    text-decoration:overline underline;
+}
+h1{
+    text-align:center;
+    text-transform:uppercase;
+}
+hr {
+    border-top: 5px solid red;
+}
+.hot{
+    letter-spacing:6px;
+    color:hotpink;
+    font-style:italic;
+    background-color:yellow;
+}
+.cold {
+    font-style:bold;
+    color:#004EFF;
+    background-color:#ADD8E6;
+    letter-spacing:20px;
+    text-align:center;
+}
+
+
+/*stylesheet created by praju*/
