@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                border: 4px solid blue;
+                padding: 5px;
+            }
+            .img1 {
+                float:right;
+            }
+            .img2 {
+                float:right;
+            }
+            .clearfix::after {
+                content:"";
+                clear:both;
+                display:table;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Without Clearfix</h2>
+        <p>This image is floated to the right, It is also taller than the element containing it, so it overflows outside of its container:</p>
+        <div>
+            <img class="img1" src="pineapple.jpg" alt="pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laboriosam laudantium hic voluptate eius, delectus iure sit. Nobis commodi libero delectus. Blanditiis reprehenderit excepturi magnam doloremque animi similique iure qui?
+        </div>
+
+        <h2 style="clear:right">With New Modern Clearfix</h2>
+        <p>Add the clearfix hack to the containing element, to fix this problem:</p>
+        <div class="clearfix">
+            <img class="img2" src="pineapple.jpg" alt="pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugit reprehenderit deserunt ab vel dolorum temporibus excepturi, consequatur vitae sapiente aspernatur tempore porro dignissimos tempora suscipit similique sed dolorem necessitatibus?
+        </div>
+    </body>
+</html>
