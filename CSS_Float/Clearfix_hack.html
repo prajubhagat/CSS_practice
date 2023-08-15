@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             div {
+                border: 3px solid green;
+                padding:5px;
+             }
+             .img1 {
+                float:right;
+             }
+             .img2 {
+                float:right;
+             }
+             .clearfix {
+                overflow: auto;
+             }
+        </style>
+    </head>
+    <body>
+        <h2>Without Clearfix</h2>
+        <p>This image is floated to the right.It is also taller than the element containg it, so it overflows outside of ist container:</p>
+        <div>
+            <img class="img1" src="pineapple (1).jpg" alt="pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veritatis cupiditate rerum labore esse officia tempora saepe distinctio molestias explicabo vel consectetur odio eos facere, sequi ipsum corporis eum? Ipsum!
+        </div>
+        
+        <h2>With Clearfix</h2>
+        <p>We can fix this by adding a clearfix class with overflow:auto to the containing element:</p>
+        <div class="clearfix">
+        <img class="img2" src="pineapple (1).jpg" alt="pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga, voluptatibus vitae maxime, molestiae aliquid inventore debitis alias rerum facilis optio adipisci nisi ipsum illo laudantium et nemo quidem voluptatum!
+        </div>
+    </body>
+</html>
