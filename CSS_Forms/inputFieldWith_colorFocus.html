@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 12px 0;
+            border: 2px solid blue;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        input[type=text]:focus {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Input field with color on: focus</h2>
+    <p>Here, the input field gets a color when it gets focus (click on):</p>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" value="John">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" value="Doe">
+    </form>
+</body>
+
+</html>
