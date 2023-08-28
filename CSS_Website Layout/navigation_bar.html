@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .header {
+            background-color: pink;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+
+        }
+
+        /* styling the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+</body>
+
+</html>
