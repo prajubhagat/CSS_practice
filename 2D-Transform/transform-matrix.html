@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width:300px;
+                height:100px;
+                background-color: gray;
+                border:1px solid black;
+            }
+            div#mydiv1 {
+                transform:matrix(1, -0.3, 0, 1, 0, 0);
+            }
+            div#mydiv2 {
+                transform:matrix(1, 0, 0.5, 1, 150,0);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The matrix() Method</h1>
+        <p>The matrix() Method combines all the 2D transform method into one.</p>
+
+        <div>This a normal div element</div>
+
+        <div id="mydiv1">Using the matrix() method.</div>
+
+        <div id="mydiv2">Another use of the matrix() method.</div>
+    </body>
+</html>
